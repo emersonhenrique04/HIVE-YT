@@ -212,6 +212,7 @@ footer > p {
     font-size: 24px;
     margin: auto;
     text-align: center;
+    width: 100%;
 }
 
 /*CARRROSSEL*/
@@ -295,10 +296,20 @@ footer > p {
     header > p {
         display: none;
     }
+    #secao5 > .flex{
+        display: block;
+    }
+    footer{
+        width: 100%;
+    }
 }
- 
+
 @media(min-width: 769px){
     aside {
         display: none;
     }
+    #secao5 > .flex{
+        flex-wrap: wrap;
+    }
+    
 }
