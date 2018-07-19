@@ -175,6 +175,10 @@ h5{
     width: 80%;
 }
 
+#secao3 > iframe{
+    margin: auto;
+}
+
 #secao4{
     font-size: 19px;
     margin: auto;
@@ -188,6 +192,8 @@ h5{
     margin-top: 100px;
     width: 80%;
 }
+
+
 
 
 .flex2{
