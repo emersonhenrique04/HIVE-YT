@@ -1,7 +1,6 @@
 body{
     margin: 0;   
-    background-color:white;
-    /* background-image: url(fundo.png); */
+    background-image: url(background-colmeia.jpg);
 }
 
 header{
@@ -83,6 +82,7 @@ p{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h3{
@@ -101,27 +101,12 @@ h5{
     height: 80px;
 }
 
-
-.mobile{
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    margin: 20px;
-}
-
-.faq{
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    margin: 20px;
-}
-
 .sobre{
     height: 250px;
     width: 215px;
     justify-content: center;
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid #f3a025;
 }
 
 .rp{
@@ -192,9 +177,6 @@ h5{
     margin-top: 100px;
     width: 80%;
 }
-
-
-
 
 .flex2{
     display: flex;
